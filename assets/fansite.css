@@ -10,13 +10,14 @@
 
 .nav-menuHead {
     display: sticky;
+    background-color: white;
     border: 1px solid black;
 }
 
 .menuHead {
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding: 5px;
 }
 
 .menuPortrait {
@@ -32,4 +33,60 @@
 .placeHoldertext {
     flex-direction: column;
     margin-top: 50%;
+}
+
+.contentinbox {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.contentinbox-bpstyled {
+    display: flex;
+    background-image: url("images/bp.png");
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 1px solid rgba(0, 170, 255, 0.481);
+}
+
+
+.classBox {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    margin-left: 75%;
+    image-resolution: 150px 250px;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    
+}
+
+.classBox>p {
+    color: black;
+}
+
+.classBox>b {
+    color: black;
+    background-color: rgb(255, 213, 107);
+}
+
+.classBox>h3 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: goldenrod;
+}
+
+.classBox>img {
+    display: flex;
+}
+
+.classImageCenter {
+    display: flex;
+    justify-content: center;
 }
