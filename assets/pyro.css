@@ -1,0 +1,28 @@
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+b {
+    color: white;
+}
+
+
+.classNameText {
+    display: flex;
+    margin-left: 700px; 
+    margin-top: 60px;
+    font-size: 400%;
+}
+
+.spacingText {
+    line-height: 25px;
+}
+

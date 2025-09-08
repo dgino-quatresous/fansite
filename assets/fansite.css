@@ -82,11 +82,7 @@
     background-color: goldenrod;
 }
 
-.classBox>img {
-    display: flex;
-}
-
 .classImageCenter {
     display: flex;
-    justify-content: center;
+    align-self: center;
 }
